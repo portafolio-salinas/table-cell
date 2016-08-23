@@ -29,9 +29,10 @@ body {
 .esmeralda,.celeste,.piel,.rosa {
 	width: 60px;
 	height: 60px;
-	display: block;
 }
 .esmeralda:hover,.celeste:hover,.piel:hover,.rosa:hover {
-	background: gold;
+	
 }
-/* completa tu codigo aqui */
+span {
+	display: table-cell;
+}/* completa tu codigo aqui */
