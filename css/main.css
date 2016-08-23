@@ -16,23 +16,41 @@ body {
 }
 .esmeralda {
 	background: #09FFA3;
+	color:#09FFA3; 
 }
 .celeste {
 	background: #5DAEF3;
+	color:#5DAEF3;
+
 }
 .piel {
 	background: #F6B179;
+	color:#F6B179;
 }
 .rosa {
 	background: #E42850;
+	color:#E42850;
 }
-.esmeralda,.celeste,.piel,.rosa {
-	width: 60px;
-	height: 60px;
-}
-.esmeralda:hover,.celeste:hover,.piel:hover,.rosa:hover {
-	
-}
-span {
+.color {
+	width: 100px;
+	height: 100px;
 	display: table-cell;
-}/* completa tu codigo aqui */
+	text-decoration: none;
+	font-family:"Dosis"
+	font-size:30px;
+}
+.pestaña {
+	width:100px;
+	height: 60px;
+	background: black;
+	margin-left: 100px;
+	display: none;
+	padding-top: 40px; 
+}
+a:hover .pestaña {
+	display:block;
+}
+li {
+	display: block;
+}
+/* completa tu codigo aqui */
