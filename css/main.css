@@ -1,0 +1,37 @@
+@font-face {
+    font-family:'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Dosis Regular'), local('Dosis-Regular'), url(http://themes.googleusercontent.com/static/fonts/dosis/v1/xIAtSaglM8LZOYdGmG1JqQ.woff) format('woff');
+}
+body, div, h1, h2, h3, h4, h5, h6, 
+p, ul, ol, li, dl, dt, dd, img, form, 
+fieldset, input, textarea, blockquote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background: #ffffff;
+}
+.esmeralda {
+	background: #09FFA3;
+}
+.celeste {
+	background: #5DAEF3;
+}
+.piel {
+	background: #F6B179;
+}
+.rosa {
+	background: #E42850;
+}
+.esmeralda,.celeste,.piel,.rosa {
+	width: 60px;
+	height: 60px;
+	display: block;
+}
+.esmeralda:hover,.celeste:hover,.piel:hover,.rosa:hover {
+	background: gold;
+}
+/* completa tu codigo aqui */
